@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to Make a Fried Egg</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header id="header">
+      <div id="egg-image">
+        <img src="Assets/egg.jpg" alt="photo of a fried egg in a frying pan" />
+      </div>
+      <h1>Fried Egg Recipe</h1>
+      <p>
+        An easy and quick method to make the perfect fried egg, great for any
+        meal.
+      </p>
+    </header>
+
+    <!-- navigate -->
+    <nav id="navbar" aria-label="Main navigation">
+      <a href="#preparation" tabindex="1">Preparation</a>
+      <a href="#ingredients" tabindex="2">Ingredients</a>
+      <a href="#instructions" tabindex="3">Instructions</a>
+      <a href="#nutrition" tabindex="4">Nutrition</a>
+    </nav>
+    <!-- preparation -->
+    <section id="preparation">
+      <h2>Preparation Time</h2>
+      <ul>
+        <li><strong>Cooking: </strong>3 minutes</li>
+        <li><strong>Total: </strong>Approximately 5 minutes</li>
+      </ul>
+    </section>
+    <!-- ingredients -->
+    <section id="ingredients">
+      <h2>Ingredients</h2>
+      <ul>
+        <li>large egg</li>
+        <li>1 tablespoon of butter or oil</li>
+        <li>Salt</li>
+        <li>Pepper</li>
+      </ul>
+    </section>
+    <!-- instructions -->
+    <section id="instructions">
+      <h2>Instructions</h2>
+      <ol>
+        <li>
+          <strong>Heat the pan: </strong>Place a non-stick frying pan over
+          medium heat and add butter or oil. Let it melt and spread evenly.
+        </li>
+        <li>
+          <strong>Crack the egg: </strong>Carefully crack the egg into a small
+          bowl to avoid shell pieces, then gently pour it into the pan.
+        </li>
+        <li>
+          <strong>Cook the egg: </strong>Allow the egg white to set while
+          keeping the yolk soft. For a sunny-side-up egg, do not flip. For
+          over-easy, flip gently after 2 minutes and cook for an additional 30
+          seconds.
+        </li>
+        <li>
+          <strong>Season: </strong>Sprinkle salt and pepper over the egg as it
+          cooks.
+        </li>
+        <li>
+          <strong>Serve: </strong>Remove the egg from the pan using a spatula
+          and place it on a plate. Serve immediately.
+        </li>
+      </ol>
+    </section>
+    <!-- nutrition -->
+    <section id="nutrition">
+      <h2>Nutrition</h2>
+      <table>
+        <caption>
+          Nutrition Facts for a Fried Egg
+        </caption>
+        <tr>
+          <th>Calories</th>
+          <th>Protein</th>
+          <th>Carbs</th>
+          <th>Fat</th>
+        </tr>
+        <tr>
+          <td>90</td>
+          <td>6g</td>
+          <td>0g</td>
+          <td>7g</td>
+        </tr>
+      </table>
+    </section>
+    <button
+      id="printButton"
+      onclick="printReceipe()"
+      aria-label="Print the recipe page"
+    >
+      Print This Page
+    </button>
+    <!-- footer -->
+    <footer aria-label="Footer and social links">
+      <div id="footer-content">
+        <span id="footer-name">Min Okkar</span>
+        <div id="footer-links">
+          <a
+            href="https://github.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Min Okkar's GitHub"
+            >GitHub</a
+          >
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Min Okkar's Facebook"
+            >Facebook</a
+          >
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Min Okkar's linkedin"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

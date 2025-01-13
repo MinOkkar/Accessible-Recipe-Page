@@ -1,0 +1,3 @@
+function printReceipe() {
+  window.print();
+}
