@@ -13,22 +13,27 @@ body {
 #header {
   text-align: center;
   margin: 10px;
-  color: #333;
-}
-
-#egg-image img {
-  width: 600px;
-  height: auto;
-  border-radius: 5%;
+  color: #000000;
+  background-image: url(Assets/egg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  align-content: end;
 }
 
 #header h1 {
+  background-color: rgba(255, 191, 0, 0.733);
   font-size: 2.5rem;
+  padding: 0px;
+  margin-bottom: 0px;
 }
 
 #header p {
+  margin-top: 0px;
   font-size: 1rem;
   color: #555555;
+  background-color: rgba(255, 191, 0, 0.733);
 }
 
 /* Navbar styling */
@@ -44,7 +49,7 @@ body {
 }
 
 #navbar a {
-  color: rgb(0, 0, 0);
+  color: rgb(0, 2, 105);
   text-decoration: none;
   margin: 0 15px;
   font-size: 1rem;
@@ -69,6 +74,7 @@ body {
   width: 80%;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  scroll-margin-top: 200px;
 }
 #ingredients {
   background: rgb(255, 191, 0);
